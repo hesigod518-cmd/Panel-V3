@@ -1,0 +1,16 @@
+{
+  "name": "3x-ui-katabump",
+  "version": "1.0.0",
+  "private": true,
+  "description": "MHSanaei 3x-ui panel + Xray-core + Subscription server behind one public port, with automatic Host & Inbound provisioning, packaged for KataBump as two files (index.js + package.json).",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --max-old-space-size=48 --expose-gc index.js",
+    "selftest": "SELFTEST=1 node index.js"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "keywords": ["3x-ui", "sanaei", "xray", "vless", "vmess", "trojan", "katabump", "panel"],
+  "license": "MIT"
+}
